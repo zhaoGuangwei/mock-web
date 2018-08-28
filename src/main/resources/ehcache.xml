@@ -16,13 +16,8 @@
 
     <cache alias="contract" uses-template="heap-cache">
         <expiry>
+            <!-- timeToLiveSeconds:存活时间 -->
             <ttl unit="minutes">40</ttl>
-        </expiry>
-    </cache>
-
-    <cache alias="classLoader" uses-template="heap-cache">
-        <expiry>
-            <ttl unit="minutes">10</ttl>
         </expiry>
     </cache>
 
